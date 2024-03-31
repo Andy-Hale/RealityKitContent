@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034A5B572B6CDB27009BE9B3 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 034A5B562B6CDB27009BE9B3 /* RealityKitContent */; };
+		034A5B592B6CDB27009BE9B3 /* Snowy_DiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034A5B582B6CDB27009BE9B3 /* Snowy_DiceApp.swift */; };
+		034A5B5B2B6CDB27009BE9B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034A5B5A2B6CDB27009BE9B3 /* ContentView.swift */; };
+		034A5B5D2B6CDB27009BE9B3 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034A5B5C2B6CDB27009BE9B3 /* ImmersiveView.swift */; };
+		034A5B5F2B6CDB28009BE9B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034A5B5E2B6CDB28009BE9B3 /* Assets.xcassets */; };
+		034A5B622B6CDB28009BE9B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034A5B612B6CDB28009BE9B3 /* Preview Assets.xcassets */; };
+		034A5B6D2B6CDB29009BE9B3 /* Snowy_DiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034A5B6C2B6CDB29009BE9B3 /* Snowy_DiceTests.swift */; };
+		034A5B792B71C301009BE9B3 /* Snowflake3DRev0.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 034A5B782B71C301009BE9B3 /* Snowflake3DRev0.usdz */; };
+		03A760BC2B71EEE900F835C6 /* Die3DRev1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 03A760BB2B71EEE900F835C6 /* Die3DRev1.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		034A5B692B6CDB29009BE9B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 034A5B492B6CDB27009BE9B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 034A5B502B6CDB27009BE9B3;
+			remoteInfo = "Snowy Dice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034A5B512B6CDB27009BE9B3 /* Snowy Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snowy Dice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		034A5B552B6CDB27009BE9B3 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		034A5B582B6CDB27009BE9B3 /* Snowy_DiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snowy_DiceApp.swift; sourceTree = "<group>"; };
+		034A5B5A2B6CDB27009BE9B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		034A5B5C2B6CDB27009BE9B3 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		034A5B5E2B6CDB28009BE9B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		034A5B612B6CDB28009BE9B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		034A5B632B6CDB28009BE9B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		034A5B682B6CDB29009BE9B3 /* Snowy DiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snowy DiceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		034A5B6C2B6CDB29009BE9B3 /* Snowy_DiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snowy_DiceTests.swift; sourceTree = "<group>"; };
+		034A5B782B71C301009BE9B3 /* Snowflake3DRev0.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Snowflake3DRev0.usdz; sourceTree = "<group>"; };
+		03A760BB2B71EEE900F835C6 /* Die3DRev1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Die3DRev1.usdz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		034A5B4E2B6CDB27009BE9B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034A5B572B6CDB27009BE9B3 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034A5B652B6CDB29009BE9B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034A5B482B6CDB27009BE9B3 = {
+			isa = PBXGroup;
+			children = (
+				034A5B532B6CDB27009BE9B3 /* Snowy Dice */,
+				034A5B542B6CDB27009BE9B3 /* Packages */,
+				034A5B6B2B6CDB29009BE9B3 /* Snowy DiceTests */,
+				034A5B522B6CDB27009BE9B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		034A5B522B6CDB27009BE9B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				034A5B512B6CDB27009BE9B3 /* Snowy Dice.app */,
+				034A5B682B6CDB29009BE9B3 /* Snowy DiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		034A5B532B6CDB27009BE9B3 /* Snowy Dice */ = {
+			isa = PBXGroup;
+			children = (
+				034A5B582B6CDB27009BE9B3 /* Snowy_DiceApp.swift */,
+				034A5B5A2B6CDB27009BE9B3 /* ContentView.swift */,
+				034A5B5C2B6CDB27009BE9B3 /* ImmersiveView.swift */,
+				034A5B5E2B6CDB28009BE9B3 /* Assets.xcassets */,
+				03A760BB2B71EEE900F835C6 /* Die3DRev1.usdz */,
+				034A5B782B71C301009BE9B3 /* Snowflake3DRev0.usdz */,
+				034A5B632B6CDB28009BE9B3 /* Info.plist */,
+				034A5B602B6CDB28009BE9B3 /* Preview Content */,
+			);
+			path = "Snowy Dice";
+			sourceTree = "<group>";
+		};
+		034A5B542B6CDB27009BE9B3 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				034A5B552B6CDB27009BE9B3 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		034A5B602B6CDB28009BE9B3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				034A5B612B6CDB28009BE9B3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		034A5B6B2B6CDB29009BE9B3 /* Snowy DiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				034A5B6C2B6CDB29009BE9B3 /* Snowy_DiceTests.swift */,
+			);
+			path = "Snowy DiceTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		034A5B502B6CDB27009BE9B3 /* Snowy Dice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034A5B702B6CDB29009BE9B3 /* Build configuration list for PBXNativeTarget "Snowy Dice" */;
+			buildPhases = (
+				034A5B4D2B6CDB27009BE9B3 /* Sources */,
+				034A5B4E2B6CDB27009BE9B3 /* Frameworks */,
+				034A5B4F2B6CDB27009BE9B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snowy Dice";
+			packageProductDependencies = (
+				034A5B562B6CDB27009BE9B3 /* RealityKitContent */,
+			);
+			productName = "Snowy Dice";
+			productReference = 034A5B512B6CDB27009BE9B3 /* Snowy Dice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		034A5B672B6CDB29009BE9B3 /* Snowy DiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034A5B732B6CDB29009BE9B3 /* Build configuration list for PBXNativeTarget "Snowy DiceTests" */;
+			buildPhases = (
+				034A5B642B6CDB29009BE9B3 /* Sources */,
+				034A5B652B6CDB29009BE9B3 /* Frameworks */,
+				034A5B662B6CDB29009BE9B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				034A5B6A2B6CDB29009BE9B3 /* PBXTargetDependency */,
+			);
+			name = "Snowy DiceTests";
+			productName = "Snowy DiceTests";
+			productReference = 034A5B682B6CDB29009BE9B3 /* Snowy DiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		034A5B492B6CDB27009BE9B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					034A5B502B6CDB27009BE9B3 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					034A5B672B6CDB29009BE9B3 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 034A5B502B6CDB27009BE9B3;
+					};
+				};
+			};
+			buildConfigurationList = 034A5B4C2B6CDB27009BE9B3 /* Build configuration list for PBXProject "Snowy Dice" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 034A5B482B6CDB27009BE9B3;
+			productRefGroup = 034A5B522B6CDB27009BE9B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				034A5B502B6CDB27009BE9B3 /* Snowy Dice */,
+				034A5B672B6CDB29009BE9B3 /* Snowy DiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		034A5B4F2B6CDB27009BE9B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034A5B622B6CDB28009BE9B3 /* Preview Assets.xcassets in Resources */,
+				03A760BC2B71EEE900F835C6 /* Die3DRev1.usdz in Resources */,
+				034A5B792B71C301009BE9B3 /* Snowflake3DRev0.usdz in Resources */,
+				034A5B5F2B6CDB28009BE9B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034A5B662B6CDB29009BE9B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		034A5B4D2B6CDB27009BE9B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034A5B5B2B6CDB27009BE9B3 /* ContentView.swift in Sources */,
+				034A5B592B6CDB27009BE9B3 /* Snowy_DiceApp.swift in Sources */,
+				034A5B5D2B6CDB27009BE9B3 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034A5B642B6CDB29009BE9B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034A5B6D2B6CDB29009BE9B3 /* Snowy_DiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		034A5B6A2B6CDB29009BE9B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 034A5B502B6CDB27009BE9B3 /* Snowy Dice */;
+			targetProxy = 034A5B692B6CDB29009BE9B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034A5B6E2B6CDB29009BE9B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		034A5B6F2B6CDB29009BE9B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		034A5B712B6CDB29009BE9B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Snowy Dice/Preview Content\"";
+				DEVELOPMENT_TEAM = 9DJS2C6M29;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Andy-s-Candies-and-Baked.Snowy-Dice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		034A5B722B6CDB29009BE9B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Snowy Dice/Preview Content\"";
+				DEVELOPMENT_TEAM = 9DJS2C6M29;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Andy-s-Candies-and-Baked.Snowy-Dice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		034A5B742B6CDB29009BE9B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Andy-s-Candies-and-Baked.Snowy-DiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snowy Dice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Snowy Dice";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		034A5B752B6CDB29009BE9B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Andy-s-Candies-and-Baked.Snowy-DiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snowy Dice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Snowy Dice";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		034A5B4C2B6CDB27009BE9B3 /* Build configuration list for PBXProject "Snowy Dice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034A5B6E2B6CDB29009BE9B3 /* Debug */,
+				034A5B6F2B6CDB29009BE9B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034A5B702B6CDB29009BE9B3 /* Build configuration list for PBXNativeTarget "Snowy Dice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034A5B712B6CDB29009BE9B3 /* Debug */,
+				034A5B722B6CDB29009BE9B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034A5B732B6CDB29009BE9B3 /* Build configuration list for PBXNativeTarget "Snowy DiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034A5B742B6CDB29009BE9B3 /* Debug */,
+				034A5B752B6CDB29009BE9B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		034A5B562B6CDB27009BE9B3 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 034A5B492B6CDB27009BE9B3 /* Project object */;
+}
